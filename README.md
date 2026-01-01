@@ -4,9 +4,10 @@ This repository contains a Python project that allows users to chat with a MySQL
 
 ## Architecture
 
-The architecture diagram is included in the root directory:
 
-- Chat_with_Mysql.svg
+Below is the system architecture diagram:
+
+![Chat with MySQL Architecture](Chat_with_Mysql.svg)
 
 ## Features
 
