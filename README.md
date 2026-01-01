@@ -27,8 +27,23 @@ Below is the system architecture diagram:
 
 ## Setup
 
-### Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Madhusanka-slc/chat-with-mysql.git
 cd chat-with-mysql
+
+### 2. Create Python Environment and Install Dependencies
+
+```bash
+# Using Conda
+conda create -n chat-mysql python=3.12
+conda activate chat-mysql
+pip install -r requirements.txt
+
+### 2. Create Environment File
+
+# Copy env.example to .env
+cp env.example .env   # On Windows, manually copy env.example to .env
+
+# Add your Groq API key and any other required values in the .env file
