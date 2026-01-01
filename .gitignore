@@ -1,0 +1,35 @@
+# Environment variables (NEVER COMMIT!)
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+Chinook.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
