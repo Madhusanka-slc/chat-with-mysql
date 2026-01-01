@@ -1,15 +1,20 @@
-# Natural Language Database Chat with LangChain & Groq
+````markdown
+# Chat with MySQL Database with LangChain & Groq
 
 This project allows you to interact with a MySQL database using natural language queries powered by LangChain and the Groq LLM. It converts natural language questions into SQL, executes them on the database, and returns human-readable answers.
+
+## Architecture Diagram
+
+`Chat_with_Mysql.svg` (located in the same folder)
 
 ---
 
 ## Features
 
-- Connects to a MySQL database (tested with Chinook sample database)
-- Converts natural language questions to SQL queries
+- Connects to a MySQL database (tested with the Chinook sample database)
+- Converts natural language questions into SQL queries
 - Executes SQL queries and fetches results
-- Converts SQL results to natural language answers
+- Converts SQL results into natural language answers
 - Interactive chat function for asking your own questions
 - Schema inspection to understand database structure
 
@@ -26,8 +31,15 @@ This project allows you to interact with a MySQL database using natural language
 
 ## Setup Instructions
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/Madhusanka-slc/chat-with-mysql.git
+cd chat-with-mysql
+````
+
+### 2. Install Libraries
+
+```bash
+pip install -r requirements.txt
+```
